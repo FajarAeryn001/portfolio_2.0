@@ -1,0 +1,229 @@
+
+  body {
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(24, 24, 24);  
+  }
+
+  /* navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid black;
+    background-color: black;
+  }
+
+  .navbar h2 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar ul li {
+    list-style-type: none;
+    margin: 10px;
+
+  }
+
+  .navbar ul li a {
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+  }
+
+  .navbar ul li a:hover{
+    color: grey;
+  }
+
+            /*  home style */
+
+      .hero{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     border-bottom: 3px solid black ; 
+     background-color: rgb(24, 24, 24);  
+    }
+
+      .hero .hero-conten  h4{
+     display: flex;
+     justify-content: center;
+     color: white;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style: italic;
+     
+    }
+
+    .hero .hero-conten h3 {
+      display: flex;
+      justify-content: center;
+    }
+    .hero .hero-conten h3 a {
+      color: white;
+      text-decoration: none;
+      border: 20px solid black;
+      border-radius: 50%;
+      background-color: black;
+      justify-content: center;
+    }
+    .hero .hero-conten h3 a:hover{
+      color:rgb(73, 71, 71);
+      
+      transition: 0.5s;
+    }
+
+    .hero .hero-conten h2 {
+      color: white;
+    
+    }
+
+    .hero .hero-conten  img{
+     margin-left: 27% ;
+     margin-bottom: 20px;
+     border-radius: 50%;
+     border: 2px solid black;
+    }
+
+      /*  about style */
+
+
+    .about-full-container {
+      height: 150vh;
+      color: white;
+    }
+    .about-full-container h1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-full-container .about-container {
+      padding: 40px;
+    }
+
+       /*  skill style */
+    .skill-full-container {
+      color: white;
+      height: 100vh;
+    }
+    .skill-full-container h1 {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      font-size: 30px ;
+    }
+
+    .skill-full-container .skill-container {
+      padding: 20px;
+    }
+
+    .skill-full-container .skill-container img {
+      margin: 10px;
+    }
+
+
+
+    /*  project */
+
+    .project-full-container {
+      color: white;
+      height: 200vh;
+      border-bottom: 5px solid black;
+    }
+    
+    .project-full-container h2 {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+    }
+
+    .project-full-container p   {
+      margin: 20px;
+    }
+
+    .project-full-container h1 {
+      margin: 20px;
+      margin-top: 70px;
+    }
+
+
+    /*  project */
+
+    .contact-full-container {
+      color: white;    
+    }
+    .contact-full-container h2 {
+      margin: 20px;
+    }
+    .contact-full-container a {
+      color: white;
+      text-decoration: none;
+    }
+    .contact-full-container .ig-container {
+      display: flex;
+      margin: 30px;
+      align-items: center;
+    }
+    .contact-full-container .wa-container {
+      display: flex;
+      margin: 30px;
+      align-items: center;
+    }
+    .contact-full-container .github-container {
+      display: flex;
+      margin: 30px;
+      align-items: center;
+    }
+    
+
+
+    /* FOOTER */
+    footer {
+      color: wheat;
+      background-color: black;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+    }
+
+  
+
+    /*  media  */
+
+
+    @media only screen and (max-width:760px){
+    
+        
+
+        .navbar { 
+        flex-wrap: wrap;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 150px;
+        
+      }
+      
+      
+
+      .menu-icon{
+        display: flex;
+        cursor: pointer;
+      }
+
+
+      .skill-full-container {
+        height: 150vh;
+      
+      }
+    }
+
+
+    
